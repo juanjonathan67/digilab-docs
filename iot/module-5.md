@@ -45,7 +45,7 @@ To detect and recover from deadlock, we need mechanisms to monitor the system’
 - **Wait-for Graph:** A wait-for graph is a directed graph representing dependencies between tasks and resources. Each node in the graph represents a task or resource. An edge from a task node to a resource node indicates that the task holds the resource. An edge from a resource node to a task node indicates that the task is waiting for the resource. Deadlock exists if and only if there is a cycle in the graph.
 
 <p align="center">
-    <img src="./images/wait-for.png">
+    <img src="https://github.com/juanjonathan67/digilab-docs/blob/main/iot/images/wait-for.png?raw=true">
 </p>
 
 ## Recovering from Deadlock

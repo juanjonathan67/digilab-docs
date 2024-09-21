@@ -25,7 +25,7 @@ Wi-Fi Mesh is a network topology where multiple Wi-Fi access points (nodes) work
 ### Traditional Wi-Fi Network Architecture
 
 <p align="center">
-    <img src="./images/wifi.png">
+    <img src="https://github.com/juanjonathan67/digilab-docs/blob/main/iot/images/wifi.png?raw=true">
 </p>
 
 A traditional infrastructure Wi-Fi network operates as a point-to-multipoint system where a central node, called the access point (AP), directly connects to all other nodes, known as stations. The AP manages and forwards transmissions between these stations, and in some cases, it also handles communication with an external IP network through a router. However, this type of Wi-Fi network has the drawback of limited coverage, as each station must be within range of the AP to connect. Additionally, traditional Wi-Fi networks can become overloaded since the number of stations that can connect is restricted by the AP's capacity.
@@ -33,7 +33,7 @@ A traditional infrastructure Wi-Fi network operates as a point-to-multipoint sys
 ### ESP Wi-Fi Mesh
 
 <p align="center">
-    <img src="./images/mesh.png">
+    <img src="https://github.com/juanjonathan67/digilab-docs/blob/main/iot/images/mesh.png?raw=true">
 </p>
 
 
@@ -42,7 +42,7 @@ ESP-WIFI-MESH differs from traditional infrastructure Wi-Fi networks by eliminat
 ### Node Types
 
 <p align="center">
-    <img src="./images/nodes.png">
+    <img src="https://github.com/juanjonathan67/digilab-docs/blob/main/iot/images/nodes.png?raw=true">
 </p>
 
 
@@ -61,7 +61,7 @@ Nodes that have not yet joined the network are classified as idle nodes. These n
 ### Building a Mesh Network
 
 <p align="center">
-    <img src="./images/building-mesh.png">
+    <img src="https://github.com/juanjonathan67/digilab-docs/blob/main/iot/images/building-mesh.png?raw=true">
 </p>
 
 The process of building a Wi-Fi mesh network involves first selecting a root node, followed by establishing downstream connections layer by layer until all nodes have joined the network. The specific structure of the network may vary based on factors such as root node selection, parent node selection, and asynchronous power-on reset. However, the Wi-Fi mesh network building process can generally be summarized in the following steps:
